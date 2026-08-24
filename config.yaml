@@ -1,0 +1,30 @@
+---
+carpentry: 'incubator'
+title: 'HPC Security Orientation — Pomona College HPC Workshop Series'
+created: '2026-03-05'
+license: 'CC-BY 4.0'
+source: 'https://github.com/Pomona-College/hpc-security-orientation'
+url: 'https://pomona-college.github.io/hpc-security-orientation/'
+contact: 'its-hpc@pomona.edu'
+description: 'Mandatory security orientation for Sagehen users — accounts and authentication, data handling, incident reporting and acceptable use.'
+branch: 'main'
+life_cycle: 'stable'
+keywords: 'Pomona College, HPC, research computing, security, compliance, data-protection, encryption, acceptable-use, ferpa, hipaa, authentication, password-management'
+episodes:
+- 01-welcome-responsibilities.md
+- 02-acceptable-use.md
+- 03-authentication-access.md
+- 04-data-handling-basics.md
+- 05-incident-reporting.md
+- 06-getting-help.md
+- 07-social-engineering-phishing.md
+
+learners:
+- setup.md
+- reference.md
+
+instructors:
+- instructor-notes.md
+
+profiles:
+- learner-profiles.md

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" font-family="Arial, Helvetica, sans-serif" role="img">
+  <title>Shared Responsibility Model</title>
+  <desc>ITS and User responsibilities for HPC security</desc>
+  <defs>
+    <filter id="sh06" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Title banner -->
+  <g filter="url(#sh06)">
+    <rect x="120" y="10" width="400" height="45" rx="8" fill="#004B87" stroke="#003366" stroke-width="2"/>
+    <text x="320" y="39" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">Shared Responsibility</text>
+  </g>
+
+  <!-- Connector lines -->
+  <path d="M 320,55 L 320,80 L 170,80 L 170,100" fill="none" stroke="#003366" stroke-width="1.5"/>
+  <path d="M 320,55 L 320,80 L 470,80 L 470,100" fill="none" stroke="#003366" stroke-width="1.5"/>
+
+  <!-- ITS Column -->
+  <g filter="url(#sh06)">
+    <rect x="20" y="100" width="290" height="360" rx="8" fill="#f8f9fa" stroke="#003366" stroke-width="2"/>
+    <!-- Header -->
+    <rect x="20" y="100" width="290" height="42" rx="8" fill="#003366" stroke="none"/>
+    <rect x="20" y="126" width="290" height="16" fill="#003366" stroke="none"/>
+    <text x="165" y="127" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">ITS Responsibilities</text>
+    <!-- Items -->
+    <circle cx="50" cy="170" r="6" fill="#003366"/><text x="65" y="175" fill="#333" font-size="13">Network Security</text>
+    <circle cx="50" cy="210" r="6" fill="#003366"/><text x="65" y="215" fill="#333" font-size="13">Hardware Maintenance</text>
+    <circle cx="50" cy="250" r="6" fill="#003366"/><text x="65" y="255" fill="#333" font-size="13">System Patching</text>
+    <circle cx="50" cy="290" r="6" fill="#003366"/><text x="65" y="295" fill="#333" font-size="13">Backups</text>
+    <circle cx="50" cy="330" r="6" fill="#003366"/><text x="65" y="335" fill="#333" font-size="13">Monitoring</text>
+    <circle cx="50" cy="370" r="6" fill="#003366"/><text x="65" y="375" fill="#333" font-size="13">Incident Response</text>
+  </g>
+
+  <!-- User Column -->
+  <g filter="url(#sh06)">
+    <rect x="330" y="100" width="290" height="360" rx="8" fill="#f8f9fa" stroke="#004B87" stroke-width="2"/>
+    <!-- Header -->
+    <rect x="330" y="100" width="290" height="42" rx="8" fill="#D4A843" stroke="none"/>
+    <rect x="330" y="126" width="290" height="16" fill="#D4A843" stroke="none"/>
+    <text x="475" y="127" text-anchor="middle" fill="#000" font-size="15" font-weight="bold">User Responsibilities</text>
+    <!-- Items -->
+    <circle cx="360" cy="170" r="6" fill="#D4A843"/><text x="375" y="175" fill="#333" font-size="13">Credential Protection</text>
+    <circle cx="360" cy="210" r="6" fill="#D4A843"/><text x="375" y="215" fill="#333" font-size="13">Data Classification</text>
+    <circle cx="360" cy="250" r="6" fill="#D4A843"/><text x="375" y="255" fill="#333" font-size="13">AUP Compliance</text>
+    <circle cx="360" cy="290" r="6" fill="#D4A843"/><text x="375" y="295" fill="#333" font-size="13">Incident Reporting</text>
+    <circle cx="360" cy="330" r="6" fill="#D4A843"/><text x="375" y="335" fill="#333" font-size="13">Mandatory Training</text>
+    <circle cx="360" cy="370" r="6" fill="#D4A843"/><text x="375" y="375" fill="#333" font-size="13">SSH Key Management</text>
+  </g>
+</svg>
