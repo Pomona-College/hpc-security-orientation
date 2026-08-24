@@ -144,7 +144,7 @@ Save these contacts **before starting**:
 ### Key Contacts for Security and Incidents
 
 - **HPC Security/Support**: its-hpc@pomona.edu
-- **ITS Help Desk**: See Pomona directory or email help@pomona.edu
+- **ITS Help Desk**: See Pomona directory or email servicedesk@pomona.edu
 - **Incident Reporting**: its-hpc@pomona.edu (no-blame, non-punitive)
 - **Compliance Questions**: Contact your department chair or research compliance office
 - **IRB (Human Subjects)**: Research Compliance office (see department)

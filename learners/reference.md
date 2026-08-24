@@ -198,7 +198,7 @@ Your PI will be notified of suspensions.
 
 **Password or Account Problems**
 - ITS Help Desk (see directory or https://servicedesk.pomona.edu/)
-- Email: help@pomona.edu
+- Email: servicedesk@pomona.edu
 
 **HPC Technical Issues**
 - its-hpc@pomona.edu
