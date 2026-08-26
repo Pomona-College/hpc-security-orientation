@@ -86,7 +86,7 @@ exercises: 5
 - **Acceptable Use Policy**: Full text available from ITS
 
 
-### Sagehen Specific
+### Sagehen HPC Specific
 
 - **Cluster Documentation**: https://www.pomona.edu/its/
 

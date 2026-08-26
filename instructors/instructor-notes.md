@@ -138,7 +138,7 @@ A: "No. Encryption is one layer. You also need: good passwords, correct permissi
 
 ### Episode 2: Acceptable Use Policy (20 min teaching + 10 min discussion)
 
-**Learning Outcome**: Learners understand what's allowed and prohibited on Sagehen
+**Learning Outcome**: Learners understand what's allowed and prohibited on Sagehen HPC
 
 **Key Concepts**:
 - Sagehen is for approved research and education only

@@ -5,7 +5,7 @@ exercises: 10
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
-- What activities are allowed on Sagehen?
+- What activities are allowed on Sagehen HPC?
 - What is strictly prohibited?
 - How are policy violations handled?
 - What counts as "appropriate use"?

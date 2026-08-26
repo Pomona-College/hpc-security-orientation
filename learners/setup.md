@@ -6,7 +6,7 @@ title: Setup
 
 ## Welcome to Mandatory HPC Security Training
 
-This training is **required for all Sagehen users** and must be completed within **30 days of account creation**. Account suspension is automatic for non-completion.
+This training is **required for all Sagehen HPC users** and must be completed within **30 days of account creation**. Account suspension is automatic for non-completion.
 
 ## Before Starting This Training
 

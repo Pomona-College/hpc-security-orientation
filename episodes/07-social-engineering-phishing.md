@@ -26,7 +26,7 @@ Common forms on an HPC cluster:
 
 - **Phishing email** that pretends to be ITS, a journal, a collaborator, or a vendor
 - **Pretexting**: a phone call or chat message inventing a plausible reason to "verify" your password or DUO code
-- **Baiting**: a USB drive labeled "Sagehen Backup" left in a hallway
+- **Baiting**: a USB drive labeled "Sagehen HPC Backup" left in a hallway
 - **Tailgating**: someone slipping into a restricted area behind a badge holder
 - **Quid pro quo**: "Free GPU hours if you forward me your SSH key"
 
