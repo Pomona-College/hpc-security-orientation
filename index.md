@@ -70,3 +70,9 @@ To complete this workshop, you must:
 - **Compliance required**: Both policy understanding and signature
 
 Let's begin with Episode 1!
+
+## Acknowledgments
+
+Developed by **Andrew Wilson**, Director of Research Computing and Digital
+Scholarship at Pomona College, with **Andrei Motchenko**, who tested, edited
+and produced screenshots for the workshop series.
