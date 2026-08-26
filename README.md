@@ -53,3 +53,11 @@ This training is part of Pomona College's information security program and compl
 ---
 
 **Important**: Not completing this training within 30 days will result in automatic account suspension.
+
+## Acknowledgments
+
+**Andrew Wilson** — Director of Research Computing and Digital Scholarship,
+Pomona College. Workshop design and development.
+
+**Andrei Motchenko** — testing, editing, cleanup and screenshots across the
+Pomona College HPC Workshop Series.
