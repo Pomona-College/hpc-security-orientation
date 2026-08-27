@@ -5,7 +5,7 @@ exercises: 10
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions
-- What activities are allowed on Sagehen?
+- What activities are allowed on Sagehen HPC?
 - What is strictly prohibited?
 - How are policy violations handled?
 - What counts as "appropriate use"?
@@ -21,6 +21,8 @@ exercises: 10
 ## Pomona's Acceptable Use Policy
 
 Sagehen is provided for Pomona College's educational and research mission. Using the cluster means you agree to certain policies.
+
+![Five layers protect your data, and you own the bottom two.](fig/03-defense-layers.png){alt='Six stacked layers, from outermost to innermost: network firewall and SSH encryption, both maintained by ITS; password plus DUO, shared between you and ITS; file permissions and encryption for RESTRICTED data, both your responsibility; and finally your research data at the centre.'}
 
 ## Acceptable Uses
 

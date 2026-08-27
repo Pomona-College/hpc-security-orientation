@@ -26,6 +26,8 @@ exercises: 10
 
 Your HPC account is the key to Sagehen. Securing it protects your research and others' data.
 
+![Password and DUO together, every time.](fig/02-auth-flow.png){alt='A login flow. You ssh to Sagehen HPC, enter your Pomona password, and reach a DUO prompt. If approved, access is granted to the head node. If declined or timed out, access is denied. A note says to approve a push, enter a code, or use a backup code, and never to approve a push you did not trigger.'}
+
 ## Strong Passwords
 
 A good password:

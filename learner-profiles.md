@@ -1,6 +1,6 @@
 # HPC Security Orientation - Learner Profiles
 
-These personas describe representative learners on the Sagehen cluster. The
+These personas describe representative learners on the Sagehen HPC cluster. The
 personas help instructors anticipate questions, calibrate examples, and shape
 group discussions. Every learner — regardless of profile — must complete this
 mandatory orientation within 30 days of account activation per Pomona ITS

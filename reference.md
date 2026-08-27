@@ -12,7 +12,7 @@ title: Quick Reference
 | Tier | Examples | Storage | Encryption | Sharing |
 |------|----------|---------|------------|---------|
 | **PUBLIC** | Published papers, open-source code, datasets with DOI | Anywhere | Not required | Unrestricted |
-| **PROPRIETARY** | Draft papers, lab notes, unpublished research, pre-publication data, novel algorithms, unpublished code | Sagehen | Recommended | With authorized people or NDA |
+| **PROPRIETARY** | Draft papers, lab notes, unpublished research, pre-publication data, novel algorithms, unpublished code | Sagehen HPC | Recommended | With authorized people or NDA |
 | **RESTRICTED** | Student records (FERPA), health data (HIPAA), genetic data with IDs, classified info (CUI) | Sagehen only | REQUIRED | With DUA only, IRB approval |
 
 **Key Rule**: When in doubt, classify higher (more secure). Ask your PI if unsure.
@@ -232,7 +232,7 @@ Your PI will be notified of suspensions.
 - **Should encrypt**: PROPRIETARY data
 - **Optional**: PUBLIC data
 
-### How to Encrypt on Sagehen
+### How to Encrypt on Sagehen HPC
 - **Tool**: gocryptfs (taught in Workshop 15)
 - **Command**: `gocryptfs -init /path/to/data`
 - **Then mount**: `gocryptfs /path/to/data /mount/point`
@@ -245,7 +245,7 @@ Your PI will be notified of suspensions.
 - Don't lose the password - data becomes inaccessible
 - You don't need encryption for every file, only sensitive ones
 
-## Before Using Sagehen: Acknowledge
+## Before Using Sagehen HPC: Acknowledge
 
 You must confirm:
 - [ ] I've read the Acceptable Use Policy

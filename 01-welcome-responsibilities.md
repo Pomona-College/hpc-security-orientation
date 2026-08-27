@@ -28,6 +28,8 @@ This isn't about rules to restrict you. It's about protecting:
 - Pomona's computing infrastructure
 - Our college's reputation and compliance
 
+![ITS secures the cluster; you secure your own account and data.](fig/01-shared-responsibility.png){alt='Two panels. ITS looks after the network, firewall and patching, the scheduler, storage and backups, and account provisioning and DUO. You look after your password and DUO device, file permissions on your own data, and classifying data before you use it. A note observes that most incidents start on the user side: a shared password, a world-readable directory, or a file in the wrong tier.'}
+
 ## What is HPC Security?
 
 HPC security means protecting research and sensitive data from:
