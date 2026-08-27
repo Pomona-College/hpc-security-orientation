@@ -28,6 +28,8 @@ A security incident is any unauthorized, suspicious, or policy-violating event i
 - **Policy**: Violations of acceptable use or security policy
 - **Suspicious activity**: Anything unusual requiring investigation
 
+![Report first, investigate never — that part is ITS's job.](fig/05-incident-flow.png){alt='Five steps: notice something wrong, stop what you are doing, report to its-hpc@pomona.edu, ITS investigates and contains, and resume work once cleared. A warning says not to try to clean it up yourself and not to delete anything, and that reporting early is never held against you while hiding it is.'}
+
 ## Examples of Incidents
 
 ### Definitely Report

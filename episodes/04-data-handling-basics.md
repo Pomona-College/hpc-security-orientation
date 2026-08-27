@@ -92,6 +92,8 @@ All data falls into one of three categories:
 
 **Encryption**: MANDATORY - use gocryptfs
 
+![The tier decides the rules — not your judgement in the moment.](fig/04-data-tiers.png){alt='The three Sagehen HPC data tiers. PUBLIC covers published papers, course materials and open datasets, needs no encryption and can be shared freely. PROPRIETARY covers grant proposals, pre-publication data and personnel records, with encryption recommended and sharing decided case by case. RESTRICTED covers FERPA and HIPAA data, genetic data and government CUI, where encryption is required along with audit logging and an agreement. A note adds that RESTRICTED data must live in a gocryptfs directory.'}
+
 ## Data Classification Decision Tree
 
 Ask yourself:
