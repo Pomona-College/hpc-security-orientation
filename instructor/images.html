@@ -365,17 +365,41 @@
         <h1>All Images</h1>
         
 <section id="01-welcome-responsibilities"><h2 class="section-heading"><a href="01-welcome-responsibilities.html">Welcome and Your Responsibilities</a></h2>
-<hr class="half-width"></section><section id="02-acceptable-use"><h2 class="section-heading"><a href="02-acceptable-use.html">Acceptable Use Policy</a></h2>
-<hr class="half-width"></section><section id="03-authentication-access"><h2 class="section-heading"><a href="03-authentication-access.html">Authentication and Access Control</a></h2>
-<hr class="half-width"></section><section id="04-data-handling-basics"><h2 class="section-heading"><a href="04-data-handling-basics.html">Data Handling Basics</a></h2>
+<hr class="half-width">
+<h3 id="01-welcome-responsibilities-figure-1">Figure 1</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Two panels. ITS looks after the network, firewall and patching, the scheduler, storage and backups, and account provisioning and DUO. You look after your password and DUO device, file permissions on your own data, and classifying data before you use it. A note observes that most incidents start on the user side: a shared password, a world-readable directory, or a file in the wrong tier.’</p>
+<figure><img src="../fig/01-shared-responsibility.png" alt="Two panels. ITS looks after the network, firewall and patching, the scheduler, storage and backups, and account provisioning and DUO. You look after your password and DUO device, file permissions on your own data, and classifying data before you use it. A note observes that most incidents start on the user side: a shared password, a world-readable directory, or a file in the wrong tier." class="figure mx-auto d-block"><div class="figcaption">ITS secures the cluster; you secure your own
+account and data.</div>
+</figure><hr></section><section id="02-acceptable-use"><h2 class="section-heading"><a href="02-acceptable-use.html">Acceptable Use Policy</a></h2>
+<hr class="half-width">
+<h3 id="02-acceptable-use-figure-1">Figure 1</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Six stacked layers, from outermost to innermost: network firewall and SSH encryption, both maintained by ITS; password plus DUO, shared between you and ITS; file permissions and encryption for RESTRICTED data, both your responsibility; and finally your research data at the centre.’</p>
+<figure><img src="../fig/03-defense-layers.png" alt="Six stacked layers, from outermost to innermost: network firewall and SSH encryption, both maintained by ITS; password plus DUO, shared between you and ITS; file permissions and encryption for RESTRICTED data, both your responsibility; and finally your research data at the centre." class="figure mx-auto d-block"><div class="figcaption">Five layers protect your data, and you own the
+bottom two.</div>
+</figure><hr></section><section id="03-authentication-access"><h2 class="section-heading"><a href="03-authentication-access.html">Authentication and Access Control</a></h2>
+<hr class="half-width">
+<h3 id="03-authentication-access-figure-1">Figure 1</h3>
+<p aria-hidden="true">Image 1 of 1: ‘A login flow. You ssh to Sagehen HPC, enter your Pomona password, and reach a DUO prompt. If approved, access is granted to the head node. If declined or timed out, access is denied. A note says to approve a push, enter a code, or use a backup code, and never to approve a push you did not trigger.’</p>
+<figure><img src="../fig/02-auth-flow.png" alt="A login flow. You ssh to Sagehen HPC, enter your Pomona password, and reach a DUO prompt. If approved, access is granted to the head node. If declined or timed out, access is denied. A note says to approve a push, enter a code, or use a backup code, and never to approve a push you did not trigger." class="figure mx-auto d-block"><div class="figcaption">Password and DUO together, every time.</div>
+</figure><hr></section><section id="04-data-handling-basics"><h2 class="section-heading"><a href="04-data-handling-basics.html">Data Handling Basics</a></h2>
 <hr class="half-width">
 <h3 id="04-data-handling-basics-figure-1">Figure 1</h3>
+<p aria-hidden="true">Image 1 of 1: ‘The three Sagehen HPC data tiers. PUBLIC covers published papers, course materials and open datasets, needs no encryption and can be shared freely. PROPRIETARY covers grant proposals, pre-publication data and personnel records, with encryption recommended and sharing decided case by case. RESTRICTED covers FERPA and HIPAA data, genetic data and government CUI, where encryption is required along with audit logging and an agreement. A note adds that RESTRICTED data must live in a gocryptfs directory.’</p>
+<figure><img src="../fig/04-data-tiers.png" alt="The three Sagehen HPC data tiers. PUBLIC covers published papers, course materials and open datasets, needs no encryption and can be shared freely. PROPRIETARY covers grant proposals, pre-publication data and personnel records, with encryption recommended and sharing decided case by case. RESTRICTED covers FERPA and HIPAA data, genetic data and government CUI, where encryption is required along with audit logging and an agreement. A note adds that RESTRICTED data must live in a gocryptfs directory." class="figure mx-auto d-block"><div class="figcaption">The tier decides the rules — not your judgement
+in the moment.</div>
+</figure><hr>
+<h3 id="04-data-handling-basics-figure-2">Figure 2</h3>
 <p aria-hidden="true">Image 1 of 1: ‘A terminal session creating a demo directory with three empty files and applying chmod 755, 750, and 700. The ls -l output shows one file readable by everyone, one accessible to the owner and the lab group, and one accessible only to the owner.’</p>
 <figure><img src="../fig/04-chmod-three-levels-demo.png" alt="A terminal session creating a demo directory with three empty files and applying chmod 755, 750, and 700. The ls -l output shows one file readable by everyone, one accessible to the owner and the lab group, and one accessible only to the owner." class="figure mx-auto d-block"><div class="figcaption">The three tiers in practice (file names differ
 from the examples above, but the mapping is the same): 755 everyone
 reads, 750 owner + lab group, 700 owner only.</div>
 </figure><hr></section><section id="05-incident-reporting"><h2 class="section-heading"><a href="05-incident-reporting.html">Incident Reporting and Response</a></h2>
-<hr class="half-width"></section><section id="06-getting-help"><h2 class="section-heading"><a href="06-getting-help.html">Getting Help and Resources</a></h2>
+<hr class="half-width">
+<h3 id="05-incident-reporting-figure-1">Figure 1</h3>
+<p aria-hidden="true">Image 1 of 1: ‘Five steps: notice something wrong, stop what you are doing, report to its-hpc@pomona.edu, ITS investigates and contains, and resume work once cleared. A warning says not to try to clean it up yourself and not to delete anything, and that reporting early is never held against you while hiding it is.’</p>
+<figure><img src="../fig/05-incident-flow.png" alt="Five steps: notice something wrong, stop what you are doing, report to its-hpc@pomona.edu, ITS investigates and contains, and resume work once cleared. A warning says not to try to clean it up yourself and not to delete anything, and that reporting early is never held against you while hiding it is." class="figure mx-auto d-block"><div class="figcaption">Report first, investigate never — that part is
+ITS’s job.</div>
+</figure><hr></section><section id="06-getting-help"><h2 class="section-heading"><a href="06-getting-help.html">Getting Help and Resources</a></h2>
 <hr class="half-width"></section><section id="07-social-engineering-phishing"><h2 class="section-heading"><a href="07-social-engineering-phishing.html">Social Engineering and Phishing</a></h2>
 <hr class="half-width"></section>
 </div>
@@ -427,8 +451,8 @@ reads, 750 owner + lab group, 700 owner only.</div>
   "url": "https://pomona-college.github.io/hpc-security-orientation/instructor/images.html",
   "identifier": "https://pomona-college.github.io/hpc-security-orientation/instructor/images.html",
   "dateCreated": "2026-03-05",
-  "dateModified": "2026-08-26",
-  "datePublished": "2026-08-26"
+  "dateModified": "2026-08-27",
+  "datePublished": "2026-08-27"
 }
 
   </script><script>

@@ -364,7 +364,7 @@
         
 <section id="aio-01-welcome-responsibilities"><p>Content from <a href="01-welcome-responsibilities.html">Welcome and Your Responsibilities</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-08-27 |
 
         <a href="https://github.com/Pomona-College/hpc-security-orientation/edit/main/episodes/01-welcome-responsibilities.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -410,7 +410,9 @@ days of account activation.</p>
 research data - Your collaborators’ data - Student data (FERPA
 protection) - Pomona’s computing infrastructure - Our college’s
 reputation and compliance</p>
-</section><section><h2 class="section-heading" id="what-is-hpc-security">What is HPC Security?<a class="anchor" aria-label="anchor" href="#what-is-hpc-security"></a>
+<figure><img src="fig/01-shared-responsibility.png" alt="Two panels. ITS looks after the network, firewall and patching, the scheduler, storage and backups, and account provisioning and DUO. You look after your password and DUO device, file permissions on your own data, and classifying data before you use it. A note observes that most incidents start on the user side: a shared password, a world-readable directory, or a file in the wrong tier." class="figure mx-auto d-block"><div class="figcaption">ITS secures the cluster; you secure your own
+account and data.</div>
+</figure></section><section><h2 class="section-heading" id="what-is-hpc-security">What is HPC Security?<a class="anchor" aria-label="anchor" href="#what-is-hpc-security"></a>
 </h2>
 <hr class="half-width">
 <p>HPC security means protecting research and sensitive data from:</p>
@@ -681,7 +683,7 @@ students</li>
 </div>
 </section></section><section id="aio-02-acceptable-use"><p>Content from <a href="02-acceptable-use.html">Acceptable Use Policy</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-08-27 |
 
         <a href="https://github.com/Pomona-College/hpc-security-orientation/edit/main/episodes/02-acceptable-use.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -695,7 +697,7 @@ students</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What activities are allowed on Sagehen?</li>
+<li>What activities are allowed on Sagehen HPC?</li>
 <li>What is strictly prohibited?</li>
 <li>How are policy violations handled?</li>
 <li>What counts as “appropriate use”?</li>
@@ -723,7 +725,9 @@ students</li>
 <hr class="half-width">
 <p>Sagehen is provided for Pomona College’s educational and research
 mission. Using the cluster means you agree to certain policies.</p>
-</section><section><h2 class="section-heading" id="acceptable-uses">Acceptable Uses<a class="anchor" aria-label="anchor" href="#acceptable-uses"></a>
+<figure><img src="fig/03-defense-layers.png" alt="Six stacked layers, from outermost to innermost: network firewall and SSH encryption, both maintained by ITS; password plus DUO, shared between you and ITS; file permissions and encryption for RESTRICTED data, both your responsibility; and finally your research data at the centre." class="figure mx-auto d-block"><div class="figcaption">Five layers protect your data, and you own the
+bottom two.</div>
+</figure></section><section><h2 class="section-heading" id="acceptable-uses">Acceptable Uses<a class="anchor" aria-label="anchor" href="#acceptable-uses"></a>
 </h2>
 <hr class="half-width">
 <p>HPC is appropriate for:</p>
@@ -1017,7 +1021,7 @@ files</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>
@@ -1089,7 +1093,7 @@ suspension</li>
 <!-- highlight <labname>/<myusername> placeholders in code blocks; remove if the varnish theme handles this natively -->
 <script>(function(){var CSS='.sh-placeholder{color:#c2410c;font-weight:700}[data-bs-theme="dark"] .sh-placeholder,html.dark .sh-placeholder{color:#fdba74}@media (prefers-color-scheme: dark){[data-bs-theme="auto"] .sh-placeholder{color:#fdba74}}';var RX=/<labname>|<myusername>/g;function firstMatch(el){var w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null),nodes=[],full='';while(w.nextNode()){nodes.push({n:w.currentNode,s:full.length});full+=w.currentNode.nodeValue;}RX.lastIndex=0;var m;while((m=RX.exec(full))){var s=m.index,e=s+m[0].length,inSpan=false,parts=[];for(var j=0;j<nodes.length;j++){var ns=nodes[j].s,ne=ns+nodes[j].n.nodeValue.length;if(ne<=s||ns>=e)continue;parts.push({node:nodes[j].n,a:Math.max(s-ns,0),b:Math.min(e-ns,nodes[j].n.nodeValue.length)});var p=nodes[j].n.parentNode;while(p&&p!==el){if(p.classList&&p.classList.contains('sh-placeholder')){inSpan=true;break;}p=p.parentNode;}}if(!inSpan&&parts.length)return parts;}return null;}function wrapParts(parts){for(var i=parts.length-1;i>=0;i--){var t=parts[i].node,txt=t.nodeValue,a=parts[i].a,b=parts[i].b;var span=document.createElement('span');span.className='sh-placeholder';span.textContent=txt.slice(a,b);var f=document.createDocumentFragment();if(a>0)f.appendChild(document.createTextNode(txt.slice(0,a)));f.appendChild(span);if(b<txt.length)f.appendChild(document.createTextNode(txt.slice(b)));t.parentNode.replaceChild(f,t);}}function run(){var st=document.createElement('style');st.textContent=CSS;document.head.appendChild(st);document.querySelectorAll('pre,code').forEach(function(el){var guard=0,parts;while((parts=firstMatch(el))&&guard++<500){wrapParts(parts);}});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}else{run();}})();</script></section></section><section id="aio-03-authentication-access"><p>Content from <a href="03-authentication-access.html">Authentication and Access Control</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-08-27 |
 
         <a href="https://github.com/Pomona-College/hpc-security-orientation/edit/main/episodes/03-authentication-access.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1131,7 +1135,8 @@ suspension</li>
 <hr class="half-width">
 <p>Your HPC account is the key to Sagehen. Securing it protects your
 research and others’ data.</p>
-</section><section><h2 class="section-heading" id="strong-passwords">Strong Passwords<a class="anchor" aria-label="anchor" href="#strong-passwords"></a>
+<figure><img src="fig/02-auth-flow.png" alt="A login flow. You ssh to Sagehen HPC, enter your Pomona password, and reach a DUO prompt. If approved, access is granted to the head node. If declined or timed out, access is denied. A note says to approve a push, enter a code, or use a backup code, and never to approve a push you did not trigger." class="figure mx-auto d-block"><div class="figcaption">Password and DUO together, every time.</div>
+</figure></section><section><h2 class="section-heading" id="strong-passwords">Strong Passwords<a class="anchor" aria-label="anchor" href="#strong-passwords"></a>
 </h2>
 <hr class="half-width">
 <p>A good password:</p>
@@ -1525,7 +1530,7 @@ report</li>
 <!-- highlight <labname>/<myusername> placeholders in code blocks; remove if the varnish theme handles this natively -->
 <script>(function(){var CSS='.sh-placeholder{color:#c2410c;font-weight:700}[data-bs-theme="dark"] .sh-placeholder,html.dark .sh-placeholder{color:#fdba74}@media (prefers-color-scheme: dark){[data-bs-theme="auto"] .sh-placeholder{color:#fdba74}}';var RX=/<labname>|<myusername>/g;function firstMatch(el){var w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null),nodes=[],full='';while(w.nextNode()){nodes.push({n:w.currentNode,s:full.length});full+=w.currentNode.nodeValue;}RX.lastIndex=0;var m;while((m=RX.exec(full))){var s=m.index,e=s+m[0].length,inSpan=false,parts=[];for(var j=0;j<nodes.length;j++){var ns=nodes[j].s,ne=ns+nodes[j].n.nodeValue.length;if(ne<=s||ns>=e)continue;parts.push({node:nodes[j].n,a:Math.max(s-ns,0),b:Math.min(e-ns,nodes[j].n.nodeValue.length)});var p=nodes[j].n.parentNode;while(p&&p!==el){if(p.classList&&p.classList.contains('sh-placeholder')){inSpan=true;break;}p=p.parentNode;}}if(!inSpan&&parts.length)return parts;}return null;}function wrapParts(parts){for(var i=parts.length-1;i>=0;i--){var t=parts[i].node,txt=t.nodeValue,a=parts[i].a,b=parts[i].b;var span=document.createElement('span');span.className='sh-placeholder';span.textContent=txt.slice(a,b);var f=document.createDocumentFragment();if(a>0)f.appendChild(document.createTextNode(txt.slice(0,a)));f.appendChild(span);if(b<txt.length)f.appendChild(document.createTextNode(txt.slice(b)));t.parentNode.replaceChild(f,t);}}function run(){var st=document.createElement('style');st.textContent=CSS;document.head.appendChild(st);document.querySelectorAll('pre,code').forEach(function(el){var guard=0,parts;while((parts=firstMatch(el))&&guard++<500){wrapParts(parts);}});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}else{run();}})();</script></section></section><section id="aio-04-data-handling-basics"><p>Content from <a href="04-data-handling-basics.html">Data Handling Basics</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-08-27 |
 
         <a href="https://github.com/Pomona-College/hpc-security-orientation/edit/main/episodes/04-data-handling-basics.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1627,6 +1632,9 @@ controls</p>
 <p><strong>Access</strong>: Minimum necessary basis</p>
 <p><strong>Permissions</strong>: 700 + gocryptfs</p>
 <p><strong>Encryption</strong>: MANDATORY - use gocryptfs</p>
+<figure><img src="fig/04-data-tiers.png" alt="The three Sagehen HPC data tiers. PUBLIC covers published papers, course materials and open datasets, needs no encryption and can be shared freely. PROPRIETARY covers grant proposals, pre-publication data and personnel records, with encryption recommended and sharing decided case by case. RESTRICTED covers FERPA and HIPAA data, genetic data and government CUI, where encryption is required along with audit logging and an agreement. A note adds that RESTRICTED data must live in a gocryptfs directory." class="figure mx-auto d-block"><div class="figcaption">The tier decides the rules — not your judgement
+in the moment.</div>
+</figure>
 </div>
 </section><section><h2 class="section-heading" id="data-classification-decision-tree">Data Classification Decision Tree<a class="anchor" aria-label="anchor" href="#data-classification-decision-tree"></a>
 </h2>
@@ -1929,7 +1937,7 @@ records</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>
@@ -1982,7 +1990,7 @@ authorization</li>
 </div>
 </section></section><section id="aio-05-incident-reporting"><p>Content from <a href="05-incident-reporting.html">Incident Reporting and Response</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-08-27 |
 
         <a href="https://github.com/Pomona-College/hpc-security-orientation/edit/main/episodes/05-incident-reporting.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2040,7 +2048,10 @@ policy</li>
 <li>
 <strong>Suspicious activity</strong>: Anything unusual requiring
 investigation</li>
-</ul></section><section><h2 class="section-heading" id="examples-of-incidents">Examples of Incidents<a class="anchor" aria-label="anchor" href="#examples-of-incidents"></a>
+</ul>
+<figure><img src="fig/05-incident-flow.png" alt="Five steps: notice something wrong, stop what you are doing, report to its-hpc@pomona.edu, ITS investigates and contains, and resume work once cleared. A warning says not to try to clean it up yourself and not to delete anything, and that reporting early is never held against you while hiding it is." class="figure mx-auto d-block"><div class="figcaption">Report first, investigate never — that part is
+ITS’s job.</div>
+</figure></section><section><h2 class="section-heading" id="examples-of-incidents">Examples of Incidents<a class="anchor" aria-label="anchor" href="#examples-of-incidents"></a>
 </h2>
 <hr class="half-width">
 <div class="section level3">
@@ -2500,7 +2511,7 @@ suspicious activity</li>
 </div>
 </section></section><section id="aio-06-getting-help"><p>Content from <a href="06-getting-help.html">Getting Help and Resources</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-08-27 |
 
         <a href="https://github.com/Pomona-College/hpc-security-orientation/edit/main/episodes/06-getting-help.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2610,7 +2621,7 @@ ITS</p></li>
 </ul>
 </div>
 <div class="section level3">
-<h3 id="sagehen-specific">Sagehen Specific<a class="anchor" aria-label="anchor" href="#sagehen-specific"></a>
+<h3 id="sagehen-hpc-specific">Sagehen HPC Specific<a class="anchor" aria-label="anchor" href="#sagehen-hpc-specific"></a>
 </h3>
 <ul>
 <li><p><strong>Cluster Documentation</strong>: <a href="https://www.pomona.edu/its/" class="external-link uri">https://www.pomona.edu/its/</a></p></li>
@@ -2833,7 +2844,7 @@ questions or incidents?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Example answers:</p>
 <ol style="list-style-type: decimal">
@@ -2880,7 +2891,7 @@ later</li>
 </div>
 </section></section><section id="aio-07-social-engineering-phishing"><p>Content from <a href="07-social-engineering-phishing.html">Social Engineering and Phishing</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-08-27 |
 
         <a href="https://github.com/Pomona-College/hpc-security-orientation/edit/main/episodes/07-social-engineering-phishing.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2934,8 +2945,8 @@ a collaborator, or a vendor</li>
 <strong>Pretexting</strong>: a phone call or chat message inventing
 a plausible reason to “verify” your password or DUO code</li>
 <li>
-<strong>Baiting</strong>: a USB drive labeled “Sagehen Backup” left
-in a hallway</li>
+<strong>Baiting</strong>: a USB drive labeled “Sagehen HPC Backup”
+left in a hallway</li>
 <li>
 <strong>Tailgating</strong>: someone slipping into a restricted area
 behind a badge holder</li>
@@ -3218,7 +3229,7 @@ listed in the campus directory.</p></li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><p><strong>Legitimate.</strong> Sender domain matches
@@ -3324,8 +3335,8 @@ threat) and 3.2.3 (social engineering)</li>
   "url": "https://pomona-college.github.io/hpc-security-orientation/aio.html",
   "identifier": "https://pomona-college.github.io/hpc-security-orientation/aio.html",
   "dateCreated": "2026-03-05",
-  "dateModified": "2026-08-26",
-  "datePublished": "2026-08-26"
+  "dateModified": "2026-08-27",
+  "datePublished": "2026-08-27"
 }
 
   </script><script>
